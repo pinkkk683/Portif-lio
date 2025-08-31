@@ -129,7 +129,7 @@ nav ul li a:hover {
     transform: rotate(5deg) scale(1.05);
 }
 
-/* Estilo para o card "Sobre Mim" */
+
 .about-card {
     background: rgba(255, 255, 255, 0.1);
     padding: 2rem;
@@ -252,7 +252,7 @@ footer {
     text-align: center;
 }
 
-/* ESTILO RESPONSIVO - MOBILE */
+
 @media (max-width: 768px) {
     header {
         flex-direction: column;
