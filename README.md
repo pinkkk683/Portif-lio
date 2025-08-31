@@ -1,4 +1,4 @@
-# 🌸 **Stephany Silva**
+# 💜 **Stephany Silva**
 
 Olá! Eu sou a **Stephany Silva**, **Desenvolvedora Full-Stack**, apaixonada por criar interfaces **funcionais, modernas e responsivas**. Este portfólio apresenta meus **projetos, skills e contatos** de forma clara e visual.  
 
