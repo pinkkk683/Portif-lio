@@ -129,7 +129,7 @@ nav ul li a:hover {
     transform: rotate(5deg) scale(1.05);
 }
 
-
+/* Estilo para o card "Sobre Mim" */
 .about-card {
     background: rgba(255, 255, 255, 0.1);
     padding: 2rem;
@@ -252,37 +252,56 @@ footer {
     text-align: center;
 }
 
+/* ESTILO RESPONSIVO - MOBILE */
 @media (max-width: 768px) {
     header {
-        padding: 1rem 1rem;
+        flex-direction: column;
+        padding: 1rem;
     }
+
+    header h1 {
+        margin-bottom: 1rem;
+    }
+
     nav ul {
-        gap: 1rem;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.5rem;
     }
+
     .hero {
         flex-direction: column;
         text-align: center;
+        padding: 8rem 1rem 4rem;
         gap: 2rem;
     }
+    
     .hero-content {
         text-align: center;
     }
+
     .hero-content h1 {
         font-size: 2.5rem;
     }
+
     .hero-content p {
-        font-size: 1rem; 
+        font-size: 1rem;
     }
+
     .section {
-        padding: 6rem 1rem 3rem;
+        padding: 4rem 1rem;
     }
+
     .section h2 {
         font-size: 2rem;
+        margin-bottom: 1rem;
     }
+
     .about-card, .project-card, .skills-grid {
         padding: 1rem;
         margin: 1rem auto;
     }
+
     .projects-grid {
         grid-template-columns: 1fr;
     }
